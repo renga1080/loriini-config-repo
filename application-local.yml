@@ -1,0 +1,3 @@
+user:
+  allowedDomain:  applicationlocal.com,gmail.com,yahoo.com,outllok.com,cognizant.com
+  restrictedDomain:  sterlite.com,gmail.com,yahoo.com,outllok.com,cognizant.com
