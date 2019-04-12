@@ -1,3 +1,17 @@
 db:
   user: '{cipher}a4831486cf523092946f298321a2a770622077420f2ca46444601db9a6caaf1a'
   password: '{cipher}57dd41d38c333f23da7c55abc500e47f5bbdae0a91e835f8beb48a9de8289df6'
+
+
+
+management:
+  endpoints.web.exposure.include:  "*"
+
+logging.level:
+  org.springframework.web:  TRACE
+
+
+feign.client.config.default:
+  connectTimeout: 50000
+  readTimeout:  5000
+  loggerLevel:  basic
